@@ -15,3 +15,8 @@ Hardware Setup Explanation:
                             2. BMP280           D1, D2 (SCL, SDA) I2C interface
                             3. RCWL 0516        D5
                             4. Relay Pins       D3, D7
+                            
+Software: Used Arduino IDE, 
+  1. Initial Setup: Had to install NodeMCU board first (Boards Manager), Relevant Libraries (Adafruit Unified Library, Adafruit BME280                         Library, DHT Sensor Library for ESPx, Adafruit MQTT Library, ESP8266 WiFi Library)
+  2. Cloud setup: Used Adafruit IO instance (Free). Sign up for it and Proceed, its quite intuitional. Create Feeds where data will go and                   come from. Used around 8 Feeds in Project
+  
