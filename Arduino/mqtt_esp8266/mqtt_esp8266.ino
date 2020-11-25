@@ -13,15 +13,15 @@ GPIO Pins used: RCWL: D5
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "Home Sweet Home"
-#define WLAN_PASS       "sangale@8087"
+#define WLAN_SSID       "Your SSID"
+#define WLAN_PASS       "Your Password"
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "rohirto"
-#define AIO_KEY         "aio_knbt71hFGYGTPU4zVjUhQTm7f1rc"
+#define AIO_USERNAME    "username"
+#define AIO_KEY         "key"
 
 /************ Global State (you don't need to change this!) ******************/
 
